@@ -1,0 +1,36 @@
+.shopList {
+  @apply flex flex-col justify-start list-none;
+}
+
+.shopList {
+  @apply w-full flex items-center;
+}
+
+.shopList h4 {
+  @apply w-full py-1.5 px-2;
+  @apply border-0 border-b text-black border-solid;
+  @apply flex justify-between items-center;
+  @apply hover:cursor-pointer;
+}
+
+.shopList li {
+  @apply w-full flex flex-col items-start;
+  @apply gap-0 !important;
+}
+
+.shopListIcon {
+  @apply flex items-center;
+}
+
+.shopList .active {
+  @apply bg-[rgb(255_123_0)] text-white rounded-lg;
+}
+
+.addShop {
+  @apply w-4/5 flex flex-row justify-between rounded-none ml-4 !important;
+}
+
+.addShop {
+  @apply py-1.5 px-2;
+  @apply border-0 border-b text-black border-solid;
+}

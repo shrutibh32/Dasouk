@@ -1,0 +1,15 @@
+.transaction {
+  @apply w-full h-fit flex justify-between items-center;
+}
+
+.content {
+  @apply flex flex-col gap-1;
+}
+
+.content p {
+  @apply text-[#1A1F37];
+}
+
+.price {
+  @apply text-[#1A1F37];
+}

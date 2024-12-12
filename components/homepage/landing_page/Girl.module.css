@@ -1,0 +1,238 @@
+.girl {
+  position: absolute;
+  bottom: -2%;
+  left: 5%;
+}
+
+.message {
+  position: absolute;
+  bottom: 18.5%;
+  left: 11.5%;
+  animation: message 10s infinite ease;
+}
+
+.box {
+  position: absolute;
+  bottom: 3.5%;
+  left: 22%;
+  z-index: 4;
+  animation: box 10s infinite ease;
+}
+
+.truck {
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  z-index: 2;
+  animation: truck 10s infinite ease;
+}
+
+.shutter {
+  position: absolute;
+  bottom: 12.28%;
+  left: 30.42%;
+  z-index: 4;
+  animation: shutter 10s infinite ease;
+}
+
+.smoke {
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  transform: rotate(-67deg);
+  animation: smoke 10s infinite ease;
+}
+
+@keyframes message {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes box {
+  0% {
+    opacity: 0;
+    left: 22%;
+  }
+  20% {
+    opacity: 0;
+    left: 22%;
+  }
+  30% {
+    opacity: 1;
+    left: 22%;
+  }
+  40% {
+    opacity: 1;
+    left: 30.4%;
+  }
+  50% {
+    opacity: 1;
+    left: 30.4%;
+  }
+  60% {
+    opacity: 0;
+    left: 30.4%;
+  }
+  100% {
+    opacity: 0;
+    left: 22%;
+  }
+}
+
+@keyframes shutter {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+    bottom: 12.28%;
+    left: 30.42%;
+  }
+  30% {
+    opacity: 1;
+    bottom: 12.28%;
+    left: 30.42%;
+  }
+  50% {
+    opacity: 1;
+    bottom: 12.28%;
+    left: 30.42%;
+  }
+  60% {
+    bottom: 4.5%;
+    left: 30.42%;
+  }
+  90% {
+    opacity: 1;
+    left: 40.42%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 4.5%;
+    left: 40.42%;
+  }
+}
+
+@keyframes truck {
+  0% {
+    opacity: 0;
+    left: 30%;
+  }
+  20% {
+    opacity: 0;
+    left: 30%;
+  }
+  30% {
+    opacity: 1;
+    left: 30%;
+  }
+  60% {
+    opacity: 1;
+    left: 30%;
+  }
+  90% {
+    opacity: 1;
+    left: 40%;
+  }
+  100% {
+    opacity: 0;
+    left: 40%;
+  }
+}
+
+@keyframes smoke {
+  0% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .shutter svg,
+  .box svg,
+  .message svg,
+  .smoke svg {
+    width: 83%;
+  }
+
+  .girl svg {
+    width: 83%;
+  }
+
+  .message {
+    bottom: 20%;
+    left: 13%;
+  }
+
+  .truck svg {
+    width: 80%;
+  }
+
+  .shutter {
+    animation: smallLaptopShutter 10s infinite ease;
+  }
+
+  .smoke {
+    bottom: 2%;
+    left: 24%;
+  }
+}
+
+@keyframes smallLaptopShutter {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+    bottom: 12.7%;
+    left: 30.42%;
+  }
+  30% {
+    opacity: 1;
+    bottom: 12.7%;
+    left: 30.42%;
+  }
+  50% {
+    opacity: 1;
+    bottom: 12.7%;
+    left: 30.42%;
+  }
+  60% {
+    bottom: 5.5%;
+    left: 30.42%;
+  }
+  90% {
+    opacity: 1;
+    bottom: 5.5%;
+    left: 40.42%;
+  }
+  100% {
+    opacity: 0;
+    bottom: 5.5%;
+    left: 40.42%;
+  }
+}

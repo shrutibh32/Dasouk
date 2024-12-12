@@ -1,0 +1,12 @@
+.shopNavList {
+  @apply w-full h-fit pl-4 list-none font-semibold text-gray-500;
+  @apply flex flex-col justify-start items-start;
+}
+
+.active {
+  @apply border-0 border-b text-black border-solid;
+}
+
+.shopLinks li {
+  @apply w-full items-start !important;
+}

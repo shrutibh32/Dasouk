@@ -1,0 +1,5 @@
+.pricing {
+  @apply w-4/5 h-full grid gap-4 place-items-center;
+  @apply lg:grid-cols-3 lg:w-[90%];
+  @apply xl:w-4/5 xl:gap-8;
+}

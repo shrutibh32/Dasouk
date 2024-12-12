@@ -1,0 +1,25 @@
+.pluginsContainer {
+  @apply w-full h-full px-4 flex flex-col gap-8 lg:px-10 xl:pr-32 xl:pl-20;
+}
+
+.subnavbar {
+  @apply w-full grid gap-3;
+  @apply md:grid-cols-[35%_65%];
+}
+
+.search {
+  @apply py-2 px-4 bg-[#fff] text-black border-none outline-none text-base rounded-md;
+  @apply xl:w-[90%];
+}
+
+.navItems {
+  @apply w-full grid grid-cols-2 gap-2 md:flex md:justify-between;
+}
+
+.navItems a {
+  @apply w-full md:w-24 lg:w-28 p-3 bg-[#BFB9B4] text-center rounded-xl;
+}
+
+.plugins {
+  @apply w-full px-2 md:px-10 grid md:grid-cols-2 gap-10;
+}

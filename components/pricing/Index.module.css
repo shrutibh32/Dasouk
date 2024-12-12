@@ -1,0 +1,7 @@
+.main {
+  @apply w-full h-full mt-24 my-16 flex flex-col flex-wrap justify-center items-center gap-8;
+}
+
+.main h1 {
+  @apply w-4/5 text-4xl text-center;
+}

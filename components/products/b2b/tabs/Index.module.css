@@ -1,0 +1,33 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: #fcf6e8; */
+    /* border-radius: 10px; */
+    border: none;
+}
+.tabs p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.tabComponent{
+    background-color: cadetblue;
+    color: whitesmoke;
+    margin: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    @apply rounded-lg p-4;
+}
+.tabTitle{
+    @apply text-3xl  ;
+    color: black;
+}
+

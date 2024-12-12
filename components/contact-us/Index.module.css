@@ -1,0 +1,22 @@
+.main {
+  @apply w-full h-full py-16 flex flex-col items-center gap-12;
+}
+
+.heading {
+  @apply w-4/5 flex flex-col gap-10;
+  @apply xl:w-[70%];
+}
+
+.heading h2 {
+  @apply w-full text-center;
+  @apply md:text-3xl;
+  @apply lg:text-4xl;
+  @apply xl:text-5xl;
+}
+
+.main h4 {
+  @apply w-full text-center;
+  @apply md:text-xl;
+  @apply lg:text-2xl;
+  @apply xl:text-3xl;
+}

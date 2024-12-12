@@ -1,0 +1,31 @@
+.main {
+  @apply w-4/5 flex flex-col items-center gap-8;
+  @apply xl:w-[70%];
+}
+
+.main h2 {
+  @apply md:text-2xl;
+  @apply lg:text-3xl;
+  @apply xl:text-4xl;
+}
+
+.contactCardsContainer {
+  @apply w-full grid gap-4;
+  @apply md:grid-cols-[1fr_2fr];
+  @apply xl:w-[90%];
+}
+
+.phoneEmail {
+  @apply w-full grid grid-cols-2;
+  @apply md:gap-4;
+}
+
+.contactCard {
+  @apply w-full text-center flex flex-col items-center gap-1;
+}
+
+.contactCard p {
+  @apply w-4/5 text-xs;
+
+  @apply lg:text-sm;
+}

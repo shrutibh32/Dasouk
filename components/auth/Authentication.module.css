@@ -1,0 +1,60 @@
+.authContainer {
+  @apply h-[93vh];
+  @apply md:flex-row md:h-[92vh];
+  @apply grid grid-cols-[42%_58%];
+  overflow: hidden;
+}
+
+.logoContainer {
+  @apply w-full h-[95%] flex flex-row justify-center items-center;
+  @apply md:h-full;
+  position: relative;
+  z-index: 10;
+  background: linear-gradient(135deg, #e0700d 0%, #f5576c 100%);
+  animation: slideIn 3s ease-in-out;
+}
+
+.logoContainer h1 {
+  color: white;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+@keyframes slideIn {
+  0% {
+    width: 100vw;
+  }
+  100% {
+    width: 41.5vw;
+  }
+}
+
+.formContainer {
+  @apply w-full h-auto bg-[#FCF6E8] flex flex-col justify-center items-center;
+  @apply md:h-full;
+  justify-content: space-evenly;
+  animation: fadeInAnimation 1s ease;
+}
+
+.greet_signIn {
+  color: #000;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 425px) {
+  .formContainer {
+    width: 100vw;
+  }
+  .authContainer {
+    @apply grid grid-rows-[0%_100%];
+  }
+}

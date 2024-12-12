@@ -1,0 +1,46 @@
+.lightRect,
+.mediumDarkRect,
+.darkRect {
+  width: 1400px;
+  height: 400px;
+  transform: rotate(-12deg);
+  flex-shrink: 0;
+}
+
+.lightRect {
+  background: #d1eef8;
+  position: absolute;
+  top: 79%;
+  left: 30%;
+}
+
+.mediumDarkRect {
+  background: #b2ebff;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+
+.darkRect {
+  background: #7adcfe;
+  position: absolute;
+  top: 100%;
+  left: 30%;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .lightRect,
+  .mediumDarkRect,
+  .darkRect {
+    width: 1000px;
+    transform: rotate(-14deg);
+  }
+
+  .lightRect {
+    top: 86%;
+  }
+
+  .mediumDarkRect {
+    top: 93%;
+  }
+}

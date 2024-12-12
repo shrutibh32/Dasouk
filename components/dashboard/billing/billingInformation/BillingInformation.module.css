@@ -1,0 +1,7 @@
+.billingInformation {
+  @apply w-full h-[42rem] p-6 bg-[#fff] rounded-2xl flex flex-col gap-4 overflow-y-auto;
+}
+
+.billingInformation h2 {
+  @apply text-[#1A1F37];
+}

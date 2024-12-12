@@ -1,0 +1,46 @@
+.featuresContainer {
+  @apply w-full h-full my-20 px-0 flex flex-col flex-wrap items-center gap-8;
+}
+
+.featuresContainer h2 {
+  @apply text-xl text-[#05001e] text-center lg:text-4xl uppercase font-extrabold;
+}
+
+.features {
+  @apply w-fit h-full flex flex-wrap justify-center gap-4;
+  @apply lg:gap-16;
+  @apply xl:gap-24;
+}
+
+.feature {
+  @apply w-4/5 h-full bg-[#d9d9d9] rounded-[30px];
+  @apply pt-8 pb-5 px-5;
+  @apply flex flex-col items-center gap-4;
+  @apply md:w-[220px] md:h-[27rem];
+  @apply lg:w-[260px] lg:h-[22rem];
+  @apply xl:w-[320px] xl:h-[20rem];
+}
+
+.feature1 {
+  @apply bg-[#A1F8D1];
+}
+
+.feature2 {
+  @apply bg-[#94A4EC];
+}
+
+.feature3 {
+  @apply bg-[#FFAD6F];
+}
+
+.feature h4 {
+  @apply text-center;
+}
+
+.feature img {
+  @apply rounded-[50%];
+}
+
+.feature p {
+  @apply text-center;
+}

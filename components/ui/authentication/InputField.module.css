@@ -1,0 +1,24 @@
+.controls {
+  @apply flex flex-col text-[#6C7275] relative;
+}
+
+.controls input {
+  @apply w-full rounded-md px-2 py-1;
+  height: 35px;
+  @apply xl:p-2;
+  background:#A8A49B;
+  border: 1px solid #a0aec0;
+  border-radius: 14px;
+  /* color: #a0aec0; */
+
+}
+
+.errorMessage {
+  @apply text-[red] !important;
+  @apply pl-2 pt-1 absolute top-[90%] text-sm;
+  @apply xl:top-[95%];
+}
+
+.eyeIcon {
+  @apply absolute top-1 right-4 text-2xl cursor-pointer;
+}

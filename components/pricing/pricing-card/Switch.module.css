@@ -1,0 +1,19 @@
+.horizontalSwitch {
+  @apply w-14 h-6 bg-white border-2 border-[#1A1F37] border-solid rounded-full relative cursor-pointer;
+}
+
+.horizontalSwitch {
+  @apply bg-white;
+}
+
+.switchHandle {
+  @apply w-4 h-4 bg-[#1A1F37] rounded-full absolute top-1/2 transform -translate-y-1/2 transition duration-300 ease-in-out;
+}
+
+.horizontalSwitch.on .switchHandle {
+  @apply right-1 top-0.5;
+}
+
+.horizontalSwitch.off .switchHandle {
+  @apply left-1 top-0.5;
+}

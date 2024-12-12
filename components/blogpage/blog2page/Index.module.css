@@ -1,0 +1,94 @@
+.main {
+  @apply w-full h-fit flex flex-wrap flex-col items-center justify-center;
+}
+.content h3 {
+  padding: 10px 0px;
+  font-size: small;
+}
+.blogContent p {
+  text-align: justify;
+}
+.blogContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50rem;
+  padding-top: 10px;
+  /* padding-left: 20px; */
+}
+
+.blogContent p {
+  padding-top: 20px;
+  font-size: medium;
+}
+.blogContent2 {
+  height: fit-content;
+}
+.blogContent2 p {
+  padding-top: 20px;
+  font-size: medium;
+}
+.blogContent2 h3 {
+  padding-top: 0px;
+}
+.title {
+  font-size: xx-large;
+  padding: 10px 0px 0px 0px;
+  width: 50rem;
+}
+
+.image {
+  background-image: url("../../../public/images/blogs/blog2/NavyModernBusinessBlogBannerBlog2MainImg.png");
+  width: full;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.image2 {
+  float: left;
+  background-image: url("../../../public/images/blogs/blog2/SecondBlogSecondImage.jpg");
+  width: 400px;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.Author {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 250px;
+  color: #6c7275;
+  padding: 15px 0px;
+}
+.bold {
+  padding-top: 20px;
+}
+
+.contentFloat {
+  /* display: flex; */
+  /* flex-direction: row; */
+  float: left;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-gap: 10px; */
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.contentSteps {
+  padding-bottom: 100px;
+}
+
+.contentSteps > h4 {
+  padding-top: 20px;
+}
+.contentSteps > h3 {
+  padding-top: 20px;
+}
+.contentSteps p {
+  padding: 10px 0px;
+}

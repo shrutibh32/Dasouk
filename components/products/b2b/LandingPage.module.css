@@ -1,0 +1,47 @@
+.main {
+  @apply w-full h-fit py-8;
+  @apply grid grid-cols-1 gap-6;
+  @apply md:grid-cols-2 md:gap-4 md:px-6;
+  @apply lg:px-16 xl:w-4/5 xl:px-0 xl:gap-8;
+}
+
+.title h5{
+  text-align: justify;
+  font-weight: 700;
+}
+
+
+.title {
+  font-size: 23px;
+  @apply w-full h-full order-2 text-center flex flex-wrap flex-col gap-4;
+  @apply md:order-1 md:justify-center;
+  @apply lg:text-left lg:w-[90%] xl:w-4/5;
+}
+
+.actions {
+  @apply w-full flex justify-center gap-4;
+  @apply lg:w-4/5;
+}
+
+.actions button {
+  @apply px-4 py-2 font-bold text-[var(--orange)] uppercase bg-transparent;
+  @apply rounded-md border-2 border-solid border-[var(--orange)];
+  @apply hover:bg-[var(--orange)] hover:text-white;
+}
+
+.video {
+  @apply order-1;
+  @apply md:order-2;
+  @apply xl:h-[350px]
+  /* @apply lg:pr-12; */;
+}
+
+.bold{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.orangeBox{
+  height: 40px;
+  font-size: 14px;
+}

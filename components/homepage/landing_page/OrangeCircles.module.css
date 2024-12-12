@@ -1,0 +1,107 @@
+.circle1 {
+  position: absolute;
+  left: 2%;
+  animation: circle1 4s infinite linear;
+}
+
+.circle3 {
+  position: absolute;
+  animation: circle3 4s infinite linear;
+}
+
+.circle4 {
+  position: absolute;
+  animation: circle4 4s infinite linear;
+}
+
+.circle2 {
+  position: absolute;
+  animation: circle2 4s infinite linear;
+}
+
+@keyframes circle1 {
+  0% {
+    top: 55%;
+  }
+  25% {
+    top: 33%;
+  }
+  50% {
+    top: 33%;
+  }
+  75% {
+    top: 55%;
+  }
+  100% {
+    top: 55%;
+  }
+}
+
+@keyframes circle3 {
+  0% {
+    top: 78%;
+    left: 36%;
+  }
+  25% {
+    top: 84%;
+    left: 22.5%;
+  }
+  50% {
+    top: 84%;
+    left: 22.5%;
+  }
+  75% {
+    top: 78%;
+    left: 36%;
+  }
+  100% {
+    top: 78%;
+    left: 36%;
+  }
+}
+
+@keyframes circle4 {
+  0% {
+    top: 11%;
+    left: 52%;
+  }
+  25% {
+    top: 4%;
+    left: 43.5%;
+  }
+  50% {
+    top: 4%;
+    left: 43.5%;
+  }
+  75% {
+    top: 11%;
+    left: 52%;
+  }
+  100% {
+    top: 11%;
+    left: 52%;
+  }
+}
+
+@keyframes circle2 {
+  0% {
+    top: 19%;
+    left: 95%;
+  }
+  25% {
+    top: 7%;
+    left: 88%;
+  }
+  50% {
+    top: 7%;
+    left: 88%;
+  }
+  75% {
+    top: 19%;
+    left: 95%;
+  }
+  100% {
+    top: 19%;
+    left: 95%;
+  }
+}

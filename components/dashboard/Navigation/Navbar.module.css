@@ -1,0 +1,24 @@
+.navlist {
+  @apply w-full h-full list-none lg:pt-4 flex flex-col items-center gap-2;
+}
+
+.navlist a {
+  @apply w-full flex flex-col items-center;
+}
+
+.navlist li {
+  @apply w-[85%] h-fit pl-4 py-2 flex justify-start items-center gap-4 rounded-xl;
+  /* @apply bg-[var(--orange)]; */
+}
+
+.navlist li div {
+  @apply p-2 bg-[#B1B3BC] rounded-xl flex items-center;
+}
+
+.active {
+  @apply text-white bg-[var(--orange)] font-bold;
+}
+
+.active div {
+  @apply bg-[#1A1F37] !important;
+}

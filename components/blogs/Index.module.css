@@ -1,0 +1,40 @@
+.main {
+  @apply w-full h-fit flex flex-wrap flex-col items-center justify-center;
+}
+
+.landingPage {
+  @apply w-[90%] h-[40vh] my-12 pl-4 pt-8 flex flex-col gap-2;
+  @apply bg-[url("../../public/images/BlogBg.png")] bg-no-repeat bg-right-bottom bg-cover;
+  @apply md:pl-16 md:pt-0 md:justify-center md:bg-[length:unset];
+  @apply lg:w-[90%] lg:h-[50vh] lg:bg-center lg:bg-cover lg:p-0 lg:items-center lg:gap-4;
+  @apply xl:w-4/5;
+}
+
+.title {
+  @apply flex flex-col gap-4;
+  @apply lg:text-center lg:gap-8;
+}
+
+.title h2 {
+  /* @apply uppercase; */
+  @apply lg:text-5xl;
+}
+
+.title p {
+  @apply lg:text-lg;
+}
+
+.search {
+  @apply w-fit bg-white border border-solid border-black rounded-md;
+  @apply flex items-center justify-center;
+}
+
+.search input {
+  @apply w-36 px-4 py-1 border-none outline-none bg-transparent;
+  @apply lg:w-60 lg:py-2;
+}
+
+.search svg {
+  @apply mr-2;
+  @apply lg:mr-4;
+}

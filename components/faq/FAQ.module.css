@@ -1,0 +1,4 @@
+.container {
+  @apply w-[90%] lg:w-1/2 mx-auto py-8;
+}
+

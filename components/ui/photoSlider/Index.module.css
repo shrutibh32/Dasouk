@@ -1,0 +1,12 @@
+.photoslider {
+  @apply bg-white border-y border-x-0 border-black border-solid;
+}
+
+.imageContainer {
+  @apply h-full rounded-lg;
+  @apply w-44 flex justify-center py-4 items-center !important;
+}
+
+.imageContainer img {
+  @apply h-auto mx-[5px];
+}

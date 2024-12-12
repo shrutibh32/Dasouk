@@ -1,0 +1,11 @@
+.slick-slider {
+  @apply w-full flex justify-center bg-transparent border-y border-x-0 border-black border-solid;
+}
+
+.slick-list {
+  @apply w-4/5;
+}
+
+.slick-slide {
+  @apply flex justify-center !important;
+}

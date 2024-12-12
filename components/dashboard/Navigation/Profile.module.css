@@ -1,0 +1,52 @@
+.profile {
+  @apply w-full flex flex-col items-center;
+}
+
+.profile h4 {
+  @apply w-[87%] text-center;
+}
+
+.profileNavList {
+  @apply w-[87%] h-fit mt-2 pt-4 lg:py-2 list-none flex flex-col justify-center gap-6;
+}
+
+.profileNavList a {
+  @apply flex justify-center;
+}
+
+.profileNavList img {
+  @apply w-10 h-10;
+}
+
+.profileNavList li {
+  @apply w-[85%] pl-2 flex items-center gap-4;
+}
+
+.logoutIcon {
+  @apply p-2 bg-[#B1B3BC] rounded-xl flex items-center;
+}
+
+.helpContainer {
+  @apply w-[87%] h-fit mt-4 px-4 py-4 bg-[#1A1F37] rounded-2xl;
+  @apply flex flex-col gap-6 text-white;
+}
+
+.helpIcon {
+  @apply w-fit p-1 bg-white flex rounded-full;
+}
+
+.logoutIcon svg {
+  @apply text-[#1A1F37] font-bold text-lg;
+}
+
+.helpContainer p {
+  @apply text-xs;
+}
+
+.helpContainer button {
+  @apply w-full mt-2 p-3 border-none bg-[var(--orange)]  text-white rounded-xl font-bold;
+}
+
+.active {
+  @apply text-white bg-[var(--orange)] font-bold py-2 rounded-xl;
+}

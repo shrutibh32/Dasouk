@@ -1,0 +1,11 @@
+.logosContainer {
+  @apply h-[60px] gap-4 border-x-0 border-y border-y-black border-solid;
+  @apply flex flex-wrap justify-center items-center;
+  @apply md:h-20;
+  @apply xl:h-[100px] xl:gap-8;
+}
+
+.logosContainer svg {
+  @apply w-[13%];
+  @apply md:w-[10%];
+}

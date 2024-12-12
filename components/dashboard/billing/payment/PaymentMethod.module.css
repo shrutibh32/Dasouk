@@ -1,0 +1,34 @@
+.payment {
+  @apply w-full h-fit p-6 bg-[#fff] rounded-2xl flex flex-col gap-6 shadow-md;
+  @apply md:gap-6;
+}
+
+.header {
+  @apply w-full h-full;
+}
+
+.header h2 {
+  @apply text-[#1A1F37];
+}
+
+.content {
+  @apply w-full h-full grid grid-cols-1 gap-4;
+  @apply md:grid-cols-2;
+}
+
+.card,
+.upi {
+  @apply w-full flex items-center gap-2 border-[#1A1F37] border-2 border-solid p-2 rounded-lg;
+}
+
+.content input {
+  @apply w-full bg-transparent pl-2 border-b border-0 border-[#1A1F37] outline-none text-base;
+}
+
+.content svg {
+  @apply text-black text-xl;
+}
+
+.editBtn {
+  @apply mt-1;
+}

@@ -1,0 +1,3 @@
+.infoContainer {
+  @apply w-full h-fit flex flex-col items-center gap-4 lg:gap-4 xl:gap-6;
+}

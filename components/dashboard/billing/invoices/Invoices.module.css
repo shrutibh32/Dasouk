@@ -1,0 +1,7 @@
+.invoices {
+  @apply w-full h-[25rem] bg-[#fff] p-8 rounded-2xl flex flex-col gap-4 overflow-y-auto;
+}
+
+.invoices h2 {
+  @apply text-[#1A1F37];
+}

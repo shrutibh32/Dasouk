@@ -1,0 +1,31 @@
+.bill {
+  @apply w-full h-fit py-4 px-6 flex justify-between bg-[#1A1F37] text-white rounded-2xl;
+}
+
+.content {
+  @apply flex flex-col gap-2;
+}
+
+.content h4 {
+  @apply text-xl;
+}
+
+.companyInfo {
+  @apply text-sm flex flex-col;
+}
+
+.actions {
+  @apply flex gap-2;
+}
+
+.actions svg {
+  @apply text-xl cursor-pointer;
+}
+
+.delete {
+  @apply text-[red];
+}
+
+.edit {
+  @apply text-white;
+}

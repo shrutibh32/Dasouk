@@ -1,0 +1,15 @@
+.cardContainer {
+  @apply w-4/5 grid grid-cols-2 gap-4;
+  @apply lg:grid-cols-4;
+}
+
+.card {
+  @apply px-4 py-8 bg-[#F3F5F7] grid gap-2;
+  @apply md:px-8 md:py-6;
+  @apply lg:px-6;
+  @apply xl:px-8 xl:py-12 xl:gap-4;
+}
+
+.card p {
+  @apply text-xs xl:text-sm;
+}

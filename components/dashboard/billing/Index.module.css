@@ -1,0 +1,12 @@
+.billingSection {
+  @apply w-full h-fit grid grid-cols-1 gap-4;
+  @apply lg:grid-cols-2;
+}
+
+.payment {
+  @apply w-full h-full flex flex-col gap-4;
+}
+
+.transaction {
+  @apply w-full h-full grid gap-4;
+}

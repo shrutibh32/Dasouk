@@ -1,0 +1,5 @@
+.shop {
+  @apply w-full grid grid-cols-1 gap-4 mt-4 overflow-hidden;
+  @apply lg:grid-cols-2 lg:mt-4 lg:gap-4;
+  @apply xl:mt-8 xl:gap-8;
+}

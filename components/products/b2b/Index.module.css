@@ -1,0 +1,4 @@
+.main {
+  @apply w-full h-fit;
+  @apply xl:flex xl:flex-col xl:items-center;
+}

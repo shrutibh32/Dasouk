@@ -1,0 +1,50 @@
+.container {
+  @apply w-full h-full my-20 flex flex-col items-center gap-8;
+}
+
+.taglines {
+  @apply lg:w-4/5 text-center;
+}
+
+.taglines h1 {
+  @apply text-lg md:text-3xl xl:text-4xl font-extrabold;
+}
+
+.taglines h3 {
+  @apply text-xs md:text-lg xl:text-xl;
+}
+
+.solutions {
+  @apply w-4/5 md:w-[90%] lg:w-4/5 h-full grid gap-8 xl:gap-24;
+  @apply md:grid-cols-3;
+}
+
+.b2b,
+.b2c,
+.dropshipping {
+  @apply h-full shadow-md px-4 lg:px-8 py-10 rounded-2xl text-center;
+}
+
+.b2b h2,
+.b2c h2,
+.dropshipping h2 {
+  @apply text-lg font-extrabold uppercase xl:text-2xl;
+}
+
+.b2b p,
+.b2c p,
+.dropshipping p {
+  @apply text-center mt-4;
+}
+
+.b2b {
+  @apply bg-[#A1F8D1];
+}
+
+.b2c {
+  @apply bg-[#FFAD6F];
+}
+
+.dropshipping {
+  @apply bg-[#94a4ec];
+}

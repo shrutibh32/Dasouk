@@ -1,0 +1,38 @@
+.main {
+  @apply w-4/5 grid gap-8;
+  @apply md:grid-cols-2;
+  @apply xl:w-[70%];
+}
+
+.form {
+  @apply w-full flex flex-col gap-4;
+}
+
+.input {
+  @apply w-full flex flex-col gap-2;
+}
+
+.input label {
+  @apply font-bold uppercase text-sm;
+}
+
+.input input,
+.input textarea {
+  @apply w-4/5 px-2 py-2 ml-4 bg-transparent rounded-md;
+  @apply border border-solid border-[var(--orange)];
+}
+
+.btn button {
+  @apply px-4 py-2 border-none bg-black text-white rounded-md;
+}
+
+.map {
+  @apply h-full flex items-center;
+}
+
+.map iframe {
+  @apply h-72 border border-solid border-black;
+  @apply md:h-60;
+  @apply lg:h-80;
+  @apply xl:h-96;
+}

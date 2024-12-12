@@ -1,0 +1,15 @@
+.main {
+  @apply w-full h-[92vh] flex flex-col justify-center items-center gap-12;
+}
+
+.content {
+  @apply w-full flex flex-col justify-center items-center gap-4 text-center;
+}
+
+.content h1 {
+  @apply uppercase text-7xl;
+}
+
+.main button {
+  @apply w-48 h-fit py-3 font-bold text-base bg-[#DB4444] border-none text-white rounded-sm;
+}

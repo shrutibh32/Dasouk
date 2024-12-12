@@ -1,0 +1,109 @@
+.navbar {
+  @apply w-full h-[9vh] px-8 flex justify-between items-center shadow-[1px_1px_5px_2px_#00000022];
+  @apply fixed top-0 bg-[var(--background)] text-white z-40;
+  @apply lg:px-14;
+}
+
+.logo {
+  @apply h-full;
+}
+
+.menuIcon {
+  @apply text-black text-4xl;
+  @apply lg:hidden;
+}
+
+.navList {
+  @apply w-full h-[70vh] fixed top-[9vh] left-0 list-none;
+  @apply flex flex-col justify-center items-center gap-6;
+  @apply bg-gray-600;
+  @apply lg:relative lg:top-0;
+  @apply lg:w-fit lg:h-full lg:flex-row lg:gap-6 lg:bg-transparent lg:text-black;
+}
+
+.navList li,
+.navList a {
+  @apply w-full flex justify-center items-center gap-2 font-semibold cursor-pointer;
+}
+
+.loginBtn {
+  @apply px-6 py-2 border-none rounded-2xl font-bold tracking-widest bg-[#757575] text-black;
+  @apply bg-transparent; /* Removes the background color */
+  @apply transition-colors duration-300 ease-in-out;
+}
+
+.loginBtn:hover {
+  /* @apply text-white; Changes text color to white on hover */
+  @apply bg-gray-200; 
+}
+
+.loginBtn:focus {
+  @apply outline-none ring-2 ring-offset-2 ring-[#757575];
+}
+.dropdown {
+  @apply lg:absolute left-8 lg:py-2 lg:bg-white lg:shadow-md z-50 lg:hidden;
+}
+
+.products {
+  @apply text-center;
+}
+
+.products:hover .dropdown {
+  @apply lg:block;
+}
+
+.dropdown ul {
+  @apply list-disc lg:list-none flex flex-col gap-6 lg:gap-0;
+}
+
+.dropdown li {
+  @apply px-4 lg:py-2 lg:hover:bg-gray-200 cursor-pointer;
+}
+/* Add this to your existing CSS file */
+
+.userMenu {
+  position: relative; /* Positioning context for the dropdown */
+  @apply relative cursor-pointer;
+}
+
+.userIcon {
+  color: #000000; /* text-black */
+font-size: 1.5rem; /* text-2xl: typically 1.5rem (24px) */
+
+}
+
+.userDropdown {
+  position: absolute;
+right: 0;
+margin-top: 7rem; /* 2 in Tailwind is 0.5rem (8px) */
+width: 12rem; /* 48 in Tailwind is 12rem (192px) */
+background-color: #ffffff; /* white */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-lg */
+border-radius: 0.5rem; /* rounded-lg */
+padding: 0.5rem; /* py-2 is 0.5rem (8px) */
+
+/* Flexbox styles */
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 0.5rem; /* gap-2 is 0.5rem (8px) */
+
+}
+
+.userDropdown p {
+  color: #4a5568; /* This is the color value for Tailwind's text-gray-700 */
+
+}
+
+.logoutBtn {
+  width: 100%; /* w-full */
+text-align: left; /* text-left */
+padding-left: 1rem; /* px-4: Tailwind's 4 is 1rem (16px) */
+padding-right: 1rem; /* px-4 */
+padding-top: 0.5rem; /* py-2: Tailwind's 2 is 0.5rem (8px) */
+padding-bottom: 0.5rem; /* py-2 */
+color: #e53e3e; /* text-red-600: This is the color value for Tailwind's text-red-600 */
+background-color: #f7fafc; /* hover:bg-gray-100: This is the background color for Tailwind's gray-100 */
+
+
+}

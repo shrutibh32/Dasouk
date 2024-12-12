@@ -1,0 +1,27 @@
+.accordion {
+  @apply w-full mb-4;
+}
+
+.accordion_button {
+  @apply w-full flex justify-between items-center bg-white py-4 px-6 rounded-lg shadow-md focus:outline-none transition duration-300 ease-in-out transform hover:bg-[#F9AC72] cursor-pointer border-none;
+}
+
+.title {
+  @apply text-base font-semibold text-center;
+}
+
+.answer {
+  @apply text-sm mt-1 bg-white rounded-lg shadow-md py-4 px-6;
+}
+
+.active {
+  @apply bg-[#F9AC72];
+}
+
+.rotate_180 {
+  transform: rotate(180deg);
+}
+
+.rotate_0 {
+  transform: rotate(0deg);
+}

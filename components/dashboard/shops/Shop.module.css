@@ -1,0 +1,15 @@
+.shop {
+  @apply w-full h-fit grid grid-cols-4 place-items-center bg-[#1A1F37] text-white py-3 rounded-xl;
+}
+
+.shopName {
+  @apply w-full flex justify-center items-center gap-2 md:gap-4;
+}
+
+.shopName img {
+  @apply w-6 h-6 md:w-10 md:h-10;
+}
+
+.shop p {
+  @apply text-sm md:text-base;
+}

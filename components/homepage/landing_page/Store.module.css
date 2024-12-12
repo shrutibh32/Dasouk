@@ -1,0 +1,70 @@
+.store {
+  position: absolute;
+  z-index: 1;
+  animation: store 4s infinite ease-in-out;
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+  .store {
+    width: 120px;
+    top: 65%;
+    left: 80%;
+    animation: smallLaptopStore 4s infinite ease-in-out;
+  }
+}
+
+@keyframes store {
+  0% {
+    width: var(--bigStore);
+    top: 59%;
+    left: 66.6%;
+  }
+  25% {
+    width: var(--smallStore);
+    top: 62%;
+    left: 68.5%;
+  }
+  50% {
+    width: var(--smallStore);
+    top: 62%;
+    left: 68.5%;
+  }
+  75% {
+    width: var(--bigStore);
+    top: 59%;
+    left: 66.6%;
+  }
+  100% {
+    width: var(--bigStore);
+    top: 59%;
+    left: 66.6%;
+  }
+}
+
+@keyframes smallLaptopStore {
+  0% {
+    width: 160px;
+    top: 62%;
+    left: 79%;
+  }
+  25% {
+    width: 120px;
+    top: 65%;
+    left: 80%;
+  }
+  50% {
+    width: 120px;
+    top: 65%;
+    left: 80%;
+  }
+  75% {
+    width: 160px;
+    top: 62%;
+    left: 79%;
+  }
+  100% {
+    width: 160px;
+    top: 62%;
+    left: 79%;
+  }
+}

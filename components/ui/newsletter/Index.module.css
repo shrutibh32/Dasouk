@@ -1,0 +1,20 @@
+.main {
+  @apply w-full mt-20 mb-12 flex flex-col justify-center items-center;
+}
+
+.main form {
+  @apply w-96 mt-8 px-4 flex items-center gap-3 border-x-0 border-t-0 border-b border-solid border-black;
+}
+
+.main svg {
+  @apply w-fit text-2xl;
+}
+
+.main input {
+  @apply w-full bg-transparent border-none;
+  @apply focus:outline-none;
+}
+
+.main button {
+  @apply bg-transparent outline-none border-none uppercase cursor-pointer font-semibold;
+}

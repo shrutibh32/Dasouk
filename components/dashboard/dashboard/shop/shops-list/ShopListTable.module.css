@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+}

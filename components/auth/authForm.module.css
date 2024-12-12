@@ -1,0 +1,223 @@
+.authForm {
+  @apply w-[95%] bg-[#F7F7F7] px-6 py-8 flex flex-col gap-4 shadow-lg; /* Increased gap */
+  @apply md:w-3/4;
+  @apply xl:w-1/2 xl:px-16 xl:py-12 xl:gap-6; /* Increased gap */
+  border-radius: 20px;
+  padding-top: 40px; /* Increased padding */
+  padding-bottom: 35px; /* Increased padding */
+  gap: 1.5rem; /* Increased gap */
+  line-height: 1.6; /* Increased line height */
+}
+
+.authForm h3 {
+  text-align: center;
+  font-size: 24px; /* Increased font size */
+  color: #333333;
+  padding-bottom: 15px; /* Increased padding */
+}
+
+.orangeText {
+  @apply font-semibold cursor-pointer;
+  @apply text-[rgb(255,87,34)];
+  font-size: 18px; /* Increased font size */
+}
+
+.authForm p {
+  font-weight: 500;
+  @apply text-[#555555];
+  font-size: 16px; /* Increased font size */
+  text-align: center;
+  line-height: 1.6; /* Increased line height */
+}
+
+.authForm h1 {
+  @apply font-medium text-5xl text-[#0075FF]; /* Increased font size */
+  margin-bottom: 1.5rem; /* Increased margin */
+}
+
+.inputFields {
+  @apply flex flex-col gap-8; /* Increased gap */
+  /* height:60px; */
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* Increased gap */
+  position: relative;
+  width: 100%; /* Ensure the input field takes full width */
+ 
+}
+
+.inputFieldBox {
+  outline: none;
+  padding: 16px; /* Increased padding for larger input box */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+  font-size: 18px; /* Increased font size */
+  height: 48px; /* Set a fixed height for larger input box */
+}
+
+
+.inputFieldBox:focus {
+  border-color: #0075FF;
+}
+
+.inputFieldBox::placeholder {
+  color: transparent; /* Hide placeholder to use label as placeholder */
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 0 5px;
+  font-size: 16px; /* Adjust font size */
+  color: #aaa;
+  transition: 0.3s;
+  pointer-events: none; /* Prevent the label from blocking clicks on the input field */
+}
+
+.inputFieldBox:focus + .label,
+.inputFieldBox:not(:placeholder-shown) + .label {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  color: #0075FF;
+  background-color: #f7f7f7;
+  padding: 0 5px;
+}
+
+.additionalControl {
+  @apply flex text-[#555555] relative justify-between px-2;
+  font-size: 16px; /* Increased font size */
+  line-height: 1.6; /* Increased line height */
+}
+
+.rememberMe {
+  font-weight: bold;
+  color: #333333;
+  @apply flex gap-2 text-sm cursor-pointer; /* Increased font size */
+}
+
+.privacyPolicy {
+  font-size: 16px; /* Increased font size */
+  @apply text-sm cursor-pointer text-[#0075FF];
+}
+
+.checkbox {
+  @apply outline-none cursor-pointer;
+}
+
+.forgotPassword {
+  @apply text-[#0075FF] font-semibold text-sm cursor-pointer; /* Increased font size */
+}
+
+.authForm button {
+  @apply text-white py-3 font-medium; /* Increased padding */
+  @apply bg-[#0075FF];
+  border-radius: 8px;
+  border: 1px solid #005BBB;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.authForm button:hover {
+  background-color: #005BBB;
+}
+
+.authForm button p {
+  color: white;
+}
+
+.logo {
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+#orBlue {
+  color: #A0AEC0;
+  font-size: 16px; /* Increased font size */
+}
+
+.buttonText {
+  color: white;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Increased width */
+  height: 20px; /* Increased height */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px; /* Increased height */
+  width: 18px; /* Increased width */
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #0075FF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0075FF;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px); /* Increased translation */
+  -ms-transform: translateX(20px); /* Increased translation */
+  transform: translateX(20px); /* Increased translation */
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.welcomeMessage {
+  text-align: center;
+  font-size: 2.5rem; /* Increased font size */
+  color: #333;
+  margin-bottom: 2rem; /* Increased margin */
+}
+
+.error {
+  color: red;
+  margin-top: 15px; /* Increased margin */
+}

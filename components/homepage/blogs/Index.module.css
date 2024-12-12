@@ -1,0 +1,14 @@
+.container {
+  @apply w-full mb-16 flex flex-col items-center justify-center gap-4;
+}
+
+.blogs {
+  @apply w-4/5 grid gap-12;
+  @apply md:w-[60%] md:grid-cols-1;
+  @apply lg:w-[90%] lg:grid-cols-3 lg:gap-6;
+  @apply xl:w-4/5 xl:gap-20;
+}
+
+.container h1 {
+  @apply py-8 text-center uppercase font-extrabold text-xl md:text-2xl lg:text-3xl xl:text-4xl;
+}

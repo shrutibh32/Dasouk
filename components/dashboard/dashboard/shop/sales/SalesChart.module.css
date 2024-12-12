@@ -1,0 +1,7 @@
+.chartContainer {
+  @apply w-full h-52 p-4 bg-[#1a1f37] text-white rounded-2xl;
+  @apply flex flex-col justify-around items-start gap-4;
+  @apply md:h-72;
+  @apply lg:h-48;
+  @apply xl:h-60;
+}

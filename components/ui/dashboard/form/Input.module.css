@@ -1,0 +1,57 @@
+.inputGroup {
+  @apply flex flex-col gap-2;
+}
+
+.fileGroup {
+  @apply flex flex-col justify-center items-center gap-2;
+}
+
+.fileGroup label {
+  @apply text-xl font-bold;
+}
+
+.profile {
+  @apply rounded-full;
+}
+
+.multipleImages {
+  @apply w-full h-fit flex flex-wrap gap-4;
+}
+
+.imageContainer {
+  @apply w-fit h-fit p-2 bg-gray-300 relative;
+}
+
+.closeIcon {
+  @apply absolute -top-2;
+}
+
+.inputGroup label,
+.fileGroup label {
+  @apply uppercase font-bold;
+}
+
+.fileGroup input {
+  @apply w-fit outline-none;
+}
+
+.inputGroup input {
+  @apply w-[90%];
+}
+
+.inputGroup input,
+.inputGroup textarea,
+.inputGroup select {
+  @apply ml-3 px-3 py-2.5 rounded-md border-2 text-sm outline-0 leading-none tracking-wider border-[#FF7B00];
+}
+
+.inputGroup input[type="number"]::-webkit-inner-spin-button,
+.inputGroup input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.inputGroup input[type="file"] {
+  @apply ml-4;
+}

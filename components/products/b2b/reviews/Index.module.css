@@ -1,0 +1,121 @@
+.review{
+    margin: 5px;
+    @apply w-[50%] h-fit py-10 px-0 flex flex-col flex-wrap gap-8;
+    text-align: center;
+    justify-content: center;
+}
+.reviewContainer{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    /* width: 100%; */
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* padding: 15px; */
+}
+
+.reviewTop{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    /* width: 100%; */
+    /* background-color: #00b7cb; */
+    background-image: linear-gradient(to bottom right, #133670 , #00b7cb);
+    border-radius: 5px;
+    padding: 20px;
+    align-items: center;
+}
+
+.Box1{
+    /* border: 1px solid #00b7cb; */
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+.Box1 p{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.Box2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Box2Div{
+    /* background-color: white; */
+    display: flex;
+    flex-direction:  row;
+    
+    margin: 10px;
+    height: 15px;
+}
+.Box2Div p{
+    background-color: white;
+    color: white;
+    width: 300px;
+    /* width: 50px; */
+    /* z-index: 10; */
+    padding: 10px 0px;
+}
+
+.reviewBottom{
+    padding-top: 10px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.reviewBottom p{
+ padding-bottom: 0px;
+ align-items: start;
+}
+.reviewBottomDiv{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    margin: 20px;
+}
+.reviewBottomDiv textarea{
+    height: 80px;
+    margin:0px 20px;
+    width: 550px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: start;
+    border: 1px thin gray;
+    border-radius: 5px;
+}
+.reviewBottomDiv span{
+    border: 1px solid #00b7cb;
+    border-radius: 50%;
+    background-color: #00b7cb;
+    color: white;
+    height: fit-content;
+    padding: 10px;
+}
+
+.AddReview{
+    width: 100%;
+}
+
+.AddReviewBox2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+.AddReviewBox2 button{
+    color: white;
+    background-color: #00b7cb;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    width: 80px;
+    margin-left: 10px;
+
+}

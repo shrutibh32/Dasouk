@@ -1,0 +1,35 @@
+.Tab{
+    @apply flex justify-center items-center py-12 w-full;
+
+}
+.Tabs{
+    @apply flex flex-col gap-y-2 w-full;
+}
+
+.TabsIndividual{
+    @apply p-1 flex justify-center items-center gap-x-2 font-bold text-black;
+    width: 50vw;
+    margin-left: 23%;
+    padding-bottom: 30px;
+    /* border: none; */
+}
+.button{
+    border: 2px solid black;
+    @apply rounded-lg;
+    padding: 10px 0px;
+    @apply outline-none bg-[#ffecdd] w-full hover:bg-[#ffbb89] text-center focus:bg-[#ff7b00] focus:text-black;
+    font-size: 30px;
+    font-weight: 500;
+}
+.hidden{
+    display: none;
+}
+/* 
+.show-content{
+    margin: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+} */
